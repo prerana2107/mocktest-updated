@@ -1,0 +1,56 @@
+#menu-toggle {
+	
+	position: relative;
+  	padding:9px 16px;
+    cursor:pointer;
+    height: 30px;
+    width: 33px;
+    padding: 5px 5px;
+    margin-top: 8px;
+    border-radius: 56%;
+    margin-right: 63% ;
+
+}
+
+
+
+
+.line {
+	position: absolute;
+	height: 2px;
+	width:57%;
+	background: #ffffff;
+	border-radius:8px;
+	transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+.top {
+    top:-106%;
+    left: 7px;
+}
+.middle {
+    top:-86%;
+    left: 7px;
+}
+.bottom {
+    top:-66%;
+    left: 7px;
+}
+.icon.close .top {
+	transform:rotate(45deg);
+	top:-86%;
+}
+.icon.close .middle, .icon.close .bottom {
+	transform:rotate(-45deg);
+	top:-86%;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    /* text-shadow: 0 1px 0 #fff; */
+    opacity: 2.5;
+}
+
+
